@@ -1,5 +1,6 @@
 #!/bin/bash
 #set -v -x
+#test 1
 dimensions=$(identify "$1")
 dimensions=$(echo "$dimensions" | awk -F"[ ]" '{print $3}')
 #echo "$dimensions"
